@@ -7,15 +7,15 @@ This project showcases a demonstration Java Web application built on Spring Boot
 
 技术栈 (Tech Stack):
 
-Spring Boot 3
-Java 17
-Maven
-MySQL
-Redis
-MyBatis Plus
-Druid
-Lombok
-Fastjson2
-JWT
-Knife4j (OpenAPI 3)
-Spring DevTools
+- Spring Boot 3
+- Java 17
+- Maven
+- MySQL
+- Redis
+- MyBatis Plus
+- Druid
+- Lombok
+- Fastjson2
+- JWT
+- Knife4j (OpenAPI 3)
+- Spring DevTools
