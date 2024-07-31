@@ -1,0 +1,36 @@
+server:
+  port: 8095
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: springboot3-maven-openapi3-jdk17-demo
+  datasource:
+    druid:
+#      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/test_demo_database?useUnicode=true&characterEncoding=utf8&useSSL=false
+      username: root
+      password: 123456
+      validation-query: SELECT 1
+  data:
+    redis:
+      password:
+      host: localhost
+      port: 6379
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+  mapper-locations: classpath*:/mapper/**/*.xml
+#  type-aliases-package: com.example.springboot3.domain.po
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+
+#logging:
+#  level:
+#    com.example.springboot3: DEBUG
+#    org.springframework: DEBUG
+#    com.baomidou.mybatisplus: DEBUG
